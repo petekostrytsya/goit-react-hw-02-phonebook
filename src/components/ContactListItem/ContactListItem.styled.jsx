@@ -8,10 +8,9 @@ export const ContactItem = styled.li`
 `;
 
 export const ContactName = styled.p`
-  font-family: Segoe UI;
+  font-family: 'Segoe UI';
   font-weight: 500;
   margin: 0;
-  font-weight: 500;
 `;
 
 export const ContactNumber = styled.span`

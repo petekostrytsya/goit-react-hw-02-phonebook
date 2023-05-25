@@ -13,7 +13,7 @@ export const ContactListItem = ({ id, name, number, deleteContact }) => {
     )
 }
 
-ContactsListItem.propTypes = {
+ContactListItem.propTypes = {
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   number: PropTypes.string.isRequired,
