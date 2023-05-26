@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import { ContactItem, ContactName, ContactNumber, Button } from './Statistics.styled';
+import { ContactItem, ContactName, ContactNumber, Button } from './ContactListItem.styled';
 
-export const ContactListItem = ({ id, name, number, deleteContact }) => {
+export const ContactsListItem = ({ id, name, number, deleteContact }) => {
     return (
         <ContactItem key={id}>
             <ContactName>
@@ -13,7 +13,7 @@ export const ContactListItem = ({ id, name, number, deleteContact }) => {
     )
 }
 
-ContactListItem.propTypes = {
+ContactsListItem.propTypes = {
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   number: PropTypes.string.isRequired,
