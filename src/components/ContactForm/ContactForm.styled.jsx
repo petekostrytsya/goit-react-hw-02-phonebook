@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Form = styled.form`
-  width: 560px;
-  height: 240px;
+  width: 480px;
+  height: 212px;
   background-color: #bbc6fc;
   border-radius: 5px;
   border-color: #bbc6fc;
